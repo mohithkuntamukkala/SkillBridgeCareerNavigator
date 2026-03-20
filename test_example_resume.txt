@@ -1,0 +1,53 @@
+Name: Arjun Mehta
+Email: arjun.mehta.dev@gmail.com
+
+Phone: +91 98765 43210
+Location: Bangalore, India
+
+Summary
+
+Software Engineer with 2+ years of experience in backend development and basic machine learning. Interested in transitioning into a Machine Learning Engineer role.
+
+Skills
+
+Programming: Python, C++, Java
+
+Libraries: NumPy, Pandas, Scikit-learn
+
+Backend: Flask, REST APIs
+
+Databases: MySQL, MongoDB
+
+Tools: Git, Docker (basic)
+
+Concepts: Data Structures, OOP, Basic ML
+
+Experience
+
+Software Engineer — Infosys
+2023 – Present
+
+Built REST APIs using Flask for internal tools
+
+Improved query performance by 20% using optimized SQL queries
+
+Assisted in building a recommendation system using Scikit-learn
+
+Projects
+
+Movie Recommendation System
+
+Built collaborative filtering model using Scikit-learn
+
+Achieved 78% accuracy on test dataset
+
+Sales Forecasting Model
+
+Used regression models to predict sales trends
+
+Performed feature engineering and data cleaning
+
+Education
+
+B.Tech in Computer Science
+VIT University, 2023
