@@ -332,7 +332,7 @@ These fallback mechanisms ensure:
 ---
 
 ## Future Work
-
+*Added 10 roles but skill extraction works on the first 6 need to update synthetic data for the last 4
 * Normalization of ml -> machine learning,  c++ -> cpp, etc
 * Dynamic role data via job scraping APIs
 * Skill proficiency scoring
