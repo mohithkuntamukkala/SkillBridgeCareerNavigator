@@ -94,7 +94,7 @@ Now generate the roadmap."""
         curr_prompt = self.base_prompt.format(role = self.role,missing_skills = missing_skills)
 
         response = safe_generate(self, 'Test')
-        print(response)
+        #print(response)
         if not response['status'] == 'ok':
             return fallback_roadmap(self.role)
 
@@ -202,7 +202,7 @@ Now generate the mock interview questions."""
         curr_prompt = self.base_prompt.format(role = self.role,skills_json = skills)
 
         response = safe_generate(self, 'Test')
-        print(response)
+        #print(response)
         if not response['status'] == 'ok':
             return fallback_interview(skills)
 
@@ -217,7 +217,7 @@ Now generate the mock interview questions."""
             return fallback_interview(skills)
         
 def fallback_interview(skills):
-    print(skills)
+    #print(skills)
     if not skills:
         with open('data/interview_questions.json') as f:
              questions = json.load(f)
@@ -229,14 +229,14 @@ def fallback_interview(skills):
     
     with open('data/interview_questions.json') as f:
         questions = json.load(f)
-    print(questions)
+    #print(questions)
     question_bank = []
     if isinstance(skills,dict):
         skills = skills['skills']
     for skill in skills:
         if skill in questions:
             question_bank.extend(questions[skill]['questions'])
-    print(question_bank)
+    #print(question_bank)
     return {'questions':random.sample(question_bank,min(len(question_bank),12))}
     
         

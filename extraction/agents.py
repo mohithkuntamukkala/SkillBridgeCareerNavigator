@@ -6,13 +6,13 @@ def extract_json(text):
     if not text:
         return {}
 
-    # 1. Try direct parse
+
     try:
         return json.loads(text)
     except:
         pass
 
-    # 2. Remove markdown ```json ``` wrappers
+
     cleaned = re.sub(r"```json|```", "", text).strip()
 
     try:
@@ -20,7 +20,7 @@ def extract_json(text):
     except:
         pass
 
-    # 3. Extract first {...} block
+    
     match = re.search(r"\{.*\}", cleaned, re.DOTALL)
     if match:
         json_str = match.group()
@@ -29,7 +29,7 @@ def extract_json(text):
         except:
             pass
 
-    # 4. Extract first [...] block (in case top-level is list)
+    
     match = re.search(r"\[.*\]", cleaned, re.DOTALL)
     if match:
         json_str = match.group()
@@ -38,7 +38,7 @@ def extract_json(text):
         except:
             pass
 
-    # 5. Fallback
+    
     print("❌ Failed to parse JSON. Raw output:")
     print(text)
     return {}
@@ -173,7 +173,7 @@ def fallback_projects(text):
         if any(k in l for k in project_keywords):
             projects.append(line.strip())
 
-    # remove noise (very short lines)
+    
     projects = [p for p in projects if len(p) > 10]
 
     if not projects:
@@ -238,7 +238,7 @@ def fallback_experience(text):
             extracted.append(line.strip())
 
     if not extracted:
-        # fallback fallback (last safety)
+        
         return {"experience": text[:500]}
 
     return {"experience": " ".join(extracted)}

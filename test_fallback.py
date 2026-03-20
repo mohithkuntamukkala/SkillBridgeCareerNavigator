@@ -91,9 +91,7 @@ if st.button("Process"):
         st.session_state["role"] = selected_role
 
         try:
-            # =========================
-            # 🔥 PROFILE EXTRACTION
-            # =========================
+
             p = ProfileExtractor(
                 "gpt-4o-mini",
                 openai_key,
@@ -120,9 +118,6 @@ if st.button("Process"):
             st.markdown("### Experience")
             st.write(profile_json.get("experience", ""))
 
-            # =========================
-            # ⚡ GAP IDENTIFICATION
-            # =========================
             g = GapIdentifierAgent(
                 "gpt-4o-mini",
                 openai_key,
