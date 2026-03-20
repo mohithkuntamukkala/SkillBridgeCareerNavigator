@@ -163,7 +163,7 @@ source venv/bin/activate
 ### 3. Install Dependencies
 
 ```
-pip install -r requirements.txt
+pip install streamlit openai tiktoken PyPDF2 dotenv
 ```
 
 ### 4. Configure Environment Variables
