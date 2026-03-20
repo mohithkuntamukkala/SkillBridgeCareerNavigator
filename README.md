@@ -1,12 +1,12 @@
+# Candidate name
+ K.Mohith
+ 22bcs121
+
+# Demo Url
+
+# Scenario chosen
+
 # Skill Bridge Career Navigator
-
-## Overview
-
-Skill Bridge Career Navigator is an AI-driven system that transforms unstructured user data (resumes, text input, or GitHub repositories) into structured career insights. It identifies skill gaps for a target role, generates a personalized learning roadmap, and produces role-specific interview questions.
-
-The system is designed to move beyond static resume analysis and instead provide actionable, end-to-end career guidance.
-
----
 
 ## Key Capabilities
 
@@ -86,13 +86,6 @@ Roadmap Generation Agent
 Mock Interview Agent
 ```
 
-### Design Principles
-
-* Modularity: Each component is independently replaceable
-* Deterministic + Generative Hybrid: Combines structured role data with LLM reasoning
-* Fault Tolerance: Fallback mechanisms for agent failures
-
----
 
 ## Project Structure
 
@@ -183,20 +176,6 @@ streamlit run app.py
 ```
 
 The application will launch locally in the browser.
-
----
-
-## Example Workflow
-
-1. Upload a resume or provide text/GitHub link
-2. Select a target role (e.g., Machine Learning Engineer)
-3. Execute the pipeline
-4. Review outputs:
-
-   * Structured profile
-   * Missing skills
-   * Learning roadmap
-   * Interview questions
 
 ---
 
