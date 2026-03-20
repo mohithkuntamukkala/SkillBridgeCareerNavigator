@@ -1,0 +1,1143 @@
+
+{
+  "Machine Learning Engineer": {
+      "skills": [
+    "machine learning",
+    "deep learning",
+    "natural language processing",
+    "computer vision",
+    "recommendation systems",
+    "time series modeling",
+    "reinforcement learning",
+    "model deployment",
+    "ml system design",
+    "python",
+    "sql",
+    "scala",
+    "java",
+    "pytorch",
+    "tensorflow",
+    "keras",
+    "scikit-learn",
+    "xgboost",
+    "lightgbm",
+    "huggingface transformers",
+    "spark ml",
+    "docker",
+    "kubernetes",
+    "mlflow",
+    "airflow",
+    "kubeflow",
+    "dvc",
+    "wandb",
+    "git",
+    "fastapi",
+    "flask",
+    "redis",
+    "kafka",
+    "feature engineering",
+    "model optimization",
+    "hyperparameter tuning",
+    "cross validation",
+    "regularization",
+    "bias variance tradeoff",
+    "model interpretability",
+    "data drift",
+    "concept drift",
+    "online inference",
+    "batch inference",
+    "distributed training",
+    "embedding techniques",
+    "transfer learning",
+    "fine tuning",
+    "a b testing for ml",
+    "model monitoring"
+  ]
+  ,
+    "job_descriptions": [
+      {
+        "title": "Machine Learning Engineer - Product",
+        "summary": "Build and deploy scalable machine learning models powering personalization, ranking, and recommendation systems in production environments.",
+        "responsibilities": [
+          "design and train machine learning models for user-facing applications",
+          "build end-to-end pipelines from data ingestion to inference",
+          "deploy models as scalable APIs",
+          "monitor performance and handle data drift",
+          "run a b experiments to evaluate model impact"
+        ],
+        "required_skills": [
+          "python",
+          "sql",
+          "pytorch or tensorflow",
+          "feature engineering",
+          "model deployment",
+          "rest api development",
+          "docker"
+        ],
+        "preferred_skills": [
+          "recommendation systems",
+          "mlflow",
+          "real-time inference systems",
+          "cloud platforms"
+        ],
+        "tech_stack": [
+          "python",
+          "pytorch",
+          "fastapi",
+          "docker",
+          "redis",
+          "aws"
+        ]
+      },
+      {
+        "title": "Machine Learning Engineer - NLP / LLM",
+        "summary": "Develop large-scale natural language processing systems including transformers, chatbots, and retrieval-augmented generation pipelines.",
+        "responsibilities": [
+          "fine tune transformer models for domain-specific tasks",
+          "build scalable nlp pipelines and embedding systems",
+          "optimize inference latency for large language models",
+          "implement retrieval augmented generation systems",
+          "evaluate models using automated and human metrics"
+        ],
+        "required_skills": [
+          "python",
+          "pytorch",
+          "huggingface transformers",
+          "natural language processing",
+          "embeddings",
+          "deep learning"
+        ],
+        "preferred_skills": [
+          "vector databases",
+          "distributed training",
+          "model quantization",
+          "llm orchestration frameworks"
+        ],
+        "tech_stack": [
+          "python",
+          "pytorch",
+          "huggingface",
+          "faiss",
+          "kubernetes",
+          "kafka"
+        ]
+      },
+      {
+        "title": "Machine Learning Engineer - MLOps / Platform",
+        "summary": "Design and maintain scalable machine learning infrastructure, enabling reproducible training, deployment, and monitoring pipelines.",
+        "responsibilities": [
+          "build ci cd pipelines for machine learning workflows",
+          "automate model training validation and deployment",
+          "implement monitoring and alerting systems",
+          "manage distributed training pipelines",
+          "ensure reproducibility and version control"
+        ],
+        "required_skills": [
+          "docker",
+          "kubernetes",
+          "mlflow",
+          "airflow",
+          "data pipelines",
+          "model versioning"
+        ],
+        "preferred_skills": [
+          "spark",
+          "terraform",
+          "distributed systems",
+          "cloud infrastructure"
+        ],
+        "tech_stack": [
+          "kubeflow",
+          "mlflow",
+          "airflow",
+          "docker",
+          "kubernetes",
+          "spark",
+          "aws"
+        ]
+      },
+      {
+        "title": "Machine Learning Engineer - Computer Vision",
+        "summary": "Develop and deploy deep learning models for image and video understanding tasks such as detection, segmentation, and tracking.",
+        "responsibilities": [
+          "train deep learning models for vision tasks",
+          "process large-scale image and video datasets",
+          "optimize models for real-time inference",
+          "deploy models to cloud or edge environments",
+          "improve robustness and generalization"
+        ],
+        "required_skills": [
+          "python",
+          "pytorch or tensorflow",
+          "computer vision",
+          "cnn",
+          "image preprocessing",
+          "model optimization"
+        ],
+        "preferred_skills": [
+          "vision transformers",
+          "onnx",
+          "tensorrt",
+          "edge deployment"
+        ],
+        "tech_stack": [
+          "pytorch",
+          "opencv",
+          "tensorrt",
+          "onnx",
+          "docker",
+          "cuda"
+        ]
+      }
+    ]
+  },
+  "Data Scientist": {
+      "skills": [
+    "exploratory data analysis",
+    "statistical modeling",
+    "machine learning",
+    "data visualization",
+    "feature engineering",
+    "experiment design",
+    "causal inference",
+    "time series analysis",
+    "predictive modeling",
+    "business analytics",
+    "python",
+    "sql",
+    "r",
+    "scikit-learn",
+    "statsmodels",
+    "xgboost",
+    "lightgbm",
+    "pandas",
+    "numpy",
+    "tensorflow",
+    "pytorch",
+    "jupyter",
+    "tableau",
+    "power bi",
+    "excel",
+    "git",
+    "airflow",
+    "dbt",
+    "snowflake",
+    "bigquery",
+    "hypothesis testing",
+    "regression analysis",
+    "classification",
+    "clustering",
+    "dimensionality reduction",
+    "feature selection",
+    "cross validation",
+    "bias variance tradeoff",
+    "data cleaning",
+    "outlier detection",
+    "missing data imputation",
+    "a b testing",
+    "confidence intervals",
+    "p value interpretation",
+    "bayesian inference",
+    "model evaluation metrics",
+    "data storytelling"
+  ]
+    ,
+    "job_descriptions": [
+      {
+        "title": "Data Scientist - Product Analytics",
+        "summary": "Drive product decisions through data by building models, running experiments, and delivering actionable insights to improve user engagement and retention.",
+        "responsibilities": [
+          "analyze user behavior and product metrics to identify trends",
+          "design and evaluate a b experiments",
+          "build predictive models for churn and engagement",
+          "communicate insights to stakeholders using visualizations",
+          "collaborate with product and engineering teams"
+        ],
+        "required_skills": [
+          "python",
+          "sql",
+          "exploratory data analysis",
+          "a b testing",
+          "data visualization",
+          "statistical modeling"
+        ],
+        "preferred_skills": [
+          "causal inference",
+          "product analytics",
+          "tableau or power bi",
+          "feature engineering"
+        ],
+        "tech_stack": [
+          "python",
+          "pandas",
+          "scikit-learn",
+          "sql",
+          "tableau",
+          "bigquery"
+        ]
+      },
+      {
+        "title": "Data Scientist - Machine Learning",
+        "summary": "Develop and deploy machine learning models to solve business problems such as forecasting, classification, and recommendation.",
+        "responsibilities": [
+          "build and validate machine learning models",
+          "perform feature engineering and data preprocessing",
+          "optimize model performance using tuning techniques",
+          "collaborate with engineers to deploy models",
+          "monitor model performance over time"
+        ],
+        "required_skills": [
+          "python",
+          "machine learning",
+          "scikit-learn",
+          "feature engineering",
+          "model evaluation",
+          "sql"
+        ],
+        "preferred_skills": [
+          "deep learning",
+          "pytorch or tensorflow",
+          "mlflow",
+          "model deployment"
+        ],
+        "tech_stack": [
+          "python",
+          "scikit-learn",
+          "xgboost",
+          "mlflow",
+          "docker",
+          "aws"
+        ]
+      },
+      {
+        "title": "Data Scientist - Experimentation & Causal Inference",
+        "summary": "Focus on designing experiments and applying causal inference techniques to measure the true impact of product and business changes.",
+        "responsibilities": [
+          "design randomized controlled experiments",
+          "analyze experiment results with statistical rigor",
+          "apply causal inference methods to observational data",
+          "define success metrics and guardrails",
+          "communicate findings to business stakeholders"
+        ],
+        "required_skills": [
+          "hypothesis testing",
+          "a b testing",
+          "causal inference",
+          "statistics",
+          "python or r",
+          "sql"
+        ],
+        "preferred_skills": [
+          "bayesian methods",
+          "econometrics",
+          "time series analysis",
+          "advanced statistical modeling"
+        ],
+        "tech_stack": [
+          "python",
+          "statsmodels",
+          "r",
+          "sql",
+          "tableau"
+        ]
+      },
+      {
+        "title": "Data Scientist - Business Intelligence & Analytics",
+        "summary": "Translate business problems into data-driven solutions by building dashboards, performing deep analysis, and delivering insights.",
+        "responsibilities": [
+          "build dashboards and reports for stakeholders",
+          "analyze large datasets to uncover business insights",
+          "define and track key performance indicators",
+          "work with data engineers to ensure data quality",
+          "present findings in a clear and actionable manner"
+        ],
+        "required_skills": [
+          "sql",
+          "data visualization",
+          "exploratory data analysis",
+          "excel",
+          "business analytics"
+        ],
+        "preferred_skills": [
+          "tableau or power bi",
+          "data modeling",
+          "dbt",
+          "data warehousing"
+        ],
+        "tech_stack": [
+          "sql",
+          "tableau",
+          "power bi",
+          "excel",
+          "snowflake"
+        ]
+      }
+    ]
+  },
+  "Backend Developer": {
+      "skills": [
+    "backend development",
+    "api design",
+    "server side development",
+    "database design",
+    "distributed systems",
+    "microservices architecture",
+    "authentication and authorization",
+    "scalable system design",
+    "event driven architecture",
+    "data processing",
+    "python",
+    "java",
+    "javascript",
+    "typescript",
+    "go",
+    "c#",
+    "sql",
+    "django",
+    "flask",
+    "fastapi",
+    "spring boot",
+    "express",
+    "nestjs",
+    "asp.net core",
+    "docker",
+    "kubernetes",
+    "git",
+    "nginx",
+    "redis",
+    "kafka",
+    "rabbitmq",
+    "postgresql",
+    "mysql",
+    "mongodb",
+    "elasticsearch",
+    "graphql",
+    "rest",
+    "grpc",
+    "restful api design",
+    "database normalization",
+    "indexing",
+    "caching strategies",
+    "rate limiting",
+    "load balancing",
+    "horizontal scaling",
+    "vertical scaling",
+    "consistency models",
+    "cap theorem",
+    "idempotency",
+    "retry mechanisms",
+    "circuit breaker pattern",
+    "message queues",
+    "schema design",
+    "transactions",
+    "connection pooling",
+    "observability",
+    "logging and monitoring",
+    "security best practices"
+  ]
+,
+    "job_descriptions": [
+      {
+        "title": "Backend Developer - API & Services",
+        "summary": "Design and build robust backend services and APIs that power web and mobile applications with high reliability and scalability.",
+        "responsibilities": [
+          "design and implement scalable rest apis",
+          "develop server side logic and business workflows",
+          "integrate with databases and third party services",
+          "ensure performance reliability and security of backend systems",
+          "write clean maintainable and testable code"
+        ],
+        "required_skills": [
+          "python or java or node.js",
+          "rest api design",
+          "database design",
+          "sql",
+          "authentication and authorization",
+          "git"
+        ],
+        "preferred_skills": [
+          "graphql",
+          "microservices architecture",
+          "docker",
+          "redis",
+          "cloud platforms"
+        ],
+        "tech_stack": [
+          "node.js",
+          "express",
+          "postgresql",
+          "redis",
+          "docker",
+          "aws"
+        ]
+      },
+      {
+        "title": "Backend Developer - Microservices",
+        "summary": "Build and maintain microservices-based backend systems with a focus on scalability, resilience, and service-to-service communication.",
+        "responsibilities": [
+          "design and develop microservices",
+          "implement inter-service communication using messaging systems",
+          "handle service discovery and load balancing",
+          "ensure fault tolerance and resilience",
+          "optimize system performance at scale"
+        ],
+        "required_skills": [
+          "microservices architecture",
+          "distributed systems",
+          "kafka or rabbitmq",
+          "docker",
+          "kubernetes",
+          "api design"
+        ],
+        "preferred_skills": [
+          "grpc",
+          "service mesh",
+          "observability",
+          "event driven architecture"
+        ],
+        "tech_stack": [
+          "java",
+          "spring boot",
+          "kafka",
+          "kubernetes",
+          "docker",
+          "gcp"
+        ]
+      },
+      {
+        "title": "Backend Developer - Data & Infrastructure",
+        "summary": "Develop backend systems focused on high-throughput data processing, storage, and retrieval for large-scale applications.",
+        "responsibilities": [
+          "build data ingestion and processing pipelines",
+          "optimize database queries and storage systems",
+          "work with large-scale distributed data systems",
+          "ensure data consistency and reliability",
+          "collaborate with data engineers and platform teams"
+        ],
+        "required_skills": [
+          "sql",
+          "data processing",
+          "database optimization",
+          "distributed systems",
+          "python or java"
+        ],
+        "preferred_skills": [
+          "spark",
+          "hadoop",
+          "stream processing",
+          "elasticsearch"
+        ],
+        "tech_stack": [
+          "python",
+          "postgresql",
+          "kafka",
+          "spark",
+          "docker",
+          "aws"
+        ]
+      },
+      {
+        "title": "Backend Developer - Platform / Reliability",
+        "summary": "Focus on building highly reliable backend systems with strong observability, monitoring, and fault-tolerant architecture.",
+        "responsibilities": [
+          "implement logging monitoring and alerting systems",
+          "design systems for high availability and fault tolerance",
+          "optimize backend services for latency and throughput",
+          "handle incident response and debugging",
+          "improve system reliability and uptime"
+        ],
+        "required_skills": [
+          "observability",
+          "logging and monitoring",
+          "distributed systems",
+          "performance optimization",
+          "linux fundamentals"
+        ],
+        "preferred_skills": [
+          "prometheus",
+          "grafana",
+          "chaos engineering",
+          "kubernetes"
+        ],
+        "tech_stack": [
+          "go",
+          "prometheus",
+          "grafana",
+          "kubernetes",
+          "docker",
+          "gcp"
+        ]
+      }
+    ]
+  },
+  "Frontend Developer": {
+      "skills": [
+    "frontend development",
+    "ui development",
+    "component based architecture",
+    "responsive design",
+    "state management",
+    "web performance optimization",
+    "accessibility",
+    "cross browser compatibility",
+    "frontend architecture",
+    "design systems",
+    "client side routing",
+    "javascript",
+    "typescript",
+    "html",
+    "css",
+    "react",
+    "next.js",
+    "angular",
+    "vue",
+    "redux",
+    "zustand",
+    "tailwind css",
+    "bootstrap",
+    "git",
+    "webpack",
+    "vite",
+    "babel",
+    "eslint",
+    "prettier",
+    "npm",
+    "yarn",
+    "pnpm",
+    "storybook",
+    "figma",
+    "chrome devtools",
+    "dom manipulation",
+    "virtual dom",
+    "event handling",
+    "asynchronous programming",
+    "promises and async await",
+    "api integration",
+    "rest api consumption",
+    "graphql",
+    "lazy loading",
+    "code splitting",
+    "seo optimization",
+    "web vitals",
+    "hydration",
+    "server side rendering",
+    "static site generation",
+    "progressive web apps",
+    "css architecture",
+    "browser rendering lifecycle",
+    "security best practices"
+  ]
+    ,
+    "job_descriptions": [
+      {
+        "title": "Frontend Developer - React",
+        "summary": "Build modern, responsive web applications using React with a focus on performance, scalability, and user experience.",
+        "responsibilities": [
+          "develop reusable ui components",
+          "manage application state efficiently",
+          "integrate frontend with backend apis",
+          "optimize performance using code splitting and lazy loading",
+          "ensure cross browser compatibility"
+        ],
+        "required_skills": [
+          "javascript or typescript",
+          "react",
+          "html",
+          "css",
+          "api integration",
+          "state management"
+        ],
+        "preferred_skills": [
+          "next.js",
+          "web performance optimization",
+          "testing libraries",
+          "design systems"
+        ],
+        "tech_stack": [
+          "react",
+          "redux",
+          "tailwind css",
+          "vite",
+          "jest"
+        ]
+      },
+      {
+        "title": "Frontend Developer - Fullstack Interface",
+        "summary": "Develop end-to-end user interfaces with strong integration to backend systems, focusing on seamless user experiences.",
+        "responsibilities": [
+          "build dynamic user interfaces",
+          "consume and manage backend apis",
+          "handle authentication flows in frontend",
+          "collaborate with backend engineers",
+          "maintain code quality and consistency"
+        ],
+        "required_skills": [
+          "javascript",
+          "html",
+          "css",
+          "rest api consumption",
+          "frontend architecture"
+        ],
+        "preferred_skills": [
+          "node.js basics",
+          "graphql",
+          "typescript",
+          "docker"
+        ],
+        "tech_stack": [
+          "react",
+          "node.js",
+          "express",
+          "mongodb",
+          "docker"
+        ]
+      },
+      {
+        "title": "Frontend Developer - Performance & Optimization",
+        "summary": "Focus on optimizing frontend applications for speed, scalability, and excellent user experience across devices.",
+        "responsibilities": [
+          "analyze and improve web performance metrics",
+          "implement lazy loading and code splitting",
+          "optimize rendering and reduce bundle size",
+          "ensure accessibility compliance",
+          "monitor frontend performance"
+        ],
+        "required_skills": [
+          "web performance optimization",
+          "javascript",
+          "browser rendering lifecycle",
+          "web vitals",
+          "lazy loading"
+        ],
+        "preferred_skills": [
+          "next.js",
+          "server side rendering",
+          "progressive web apps",
+          "performance tools"
+        ],
+        "tech_stack": [
+          "react",
+          "next.js",
+          "lighthouse",
+          "webpack",
+          "chrome devtools"
+        ]
+      },
+      {
+        "title": "Frontend Developer - Design Systems",
+        "summary": "Develop and maintain scalable design systems and reusable component libraries used across multiple applications.",
+        "responsibilities": [
+          "build reusable and accessible components",
+          "maintain consistency across ui elements",
+          "collaborate with designers using figma",
+          "document components and usage guidelines",
+          "ensure accessibility standards compliance"
+        ],
+        "required_skills": [
+          "react or angular or vue",
+          "css architecture",
+          "accessibility",
+          "component based architecture",
+          "design systems"
+        ],
+        "preferred_skills": [
+          "storybook",
+          "typescript",
+          "testing frameworks",
+          "ui ux principles"
+        ],
+        "tech_stack": [
+          "react",
+          "storybook",
+          "tailwind css",
+          "figma",
+          "jest"
+        ]
+      }
+    ]
+  },
+  "Cloud Engineer": {
+      "skills": [
+    "cloud engineering",
+    "cloud architecture",
+    "infrastructure as code",
+    "cloud networking",
+    "distributed systems",
+    "cloud security",
+    "scalable infrastructure design",
+    "high availability systems",
+    "disaster recovery",
+    "cost optimization",
+    "cloud operations",
+    "aws",
+    "azure",
+    "google cloud platform",
+    "python",
+    "bash",
+    "go",
+    "powershell",
+    "terraform",
+    "cloudformation",
+    "pulumi",
+    "ansible",
+    "docker",
+    "kubernetes",
+    "helm",
+    "jenkins",
+    "github actions",
+    "gitlab ci",
+    "prometheus",
+    "grafana",
+    "elk stack",
+    "nginx",
+    "virtual private cloud",
+    "subnetting",
+    "load balancing",
+    "auto scaling",
+    "iam roles and policies",
+    "network security groups",
+    "zero trust architecture",
+    "infrastructure provisioning",
+    "immutable infrastructure",
+    "blue green deployment",
+    "canary deployment",
+    "observability",
+    "logging and monitoring",
+    "incident response",
+    "sla and slos",
+    "container orchestration",
+    "service discovery",
+    "resource optimization"
+  ]
+   ,
+    "job_descriptions": [
+      {
+        "title": "Cloud Engineer - AWS Infrastructure",
+        "summary": "Design, deploy, and manage scalable cloud infrastructure on AWS with a focus on reliability, performance, and cost efficiency.",
+        "responsibilities": [
+          "provision and manage cloud infrastructure using infrastructure as code",
+          "configure networking components such as vpc subnets and load balancers",
+          "implement auto scaling and high availability architectures",
+          "monitor system performance and optimize costs",
+          "ensure security best practices across cloud resources"
+        ],
+        "required_skills": [
+          "aws",
+          "terraform or cloudformation",
+          "cloud networking",
+          "linux",
+          "infrastructure as code",
+          "monitoring tools"
+        ],
+        "preferred_skills": [
+          "kubernetes",
+          "cost optimization",
+          "security best practices",
+          "multi region deployments"
+        ],
+        "tech_stack": [
+          "aws",
+          "terraform",
+          "docker",
+          "kubernetes",
+          "cloudwatch",
+          "prometheus"
+        ]
+      },
+      {
+        "title": "Cloud Engineer - DevOps / CI CD",
+        "summary": "Build and maintain CI/CD pipelines and cloud infrastructure to enable rapid and reliable software delivery.",
+        "responsibilities": [
+          "design and implement ci cd pipelines",
+          "automate build test and deployment workflows",
+          "manage containerized applications",
+          "ensure reliability and scalability of deployment systems",
+          "collaborate with development teams for release processes"
+        ],
+        "required_skills": [
+          "ci cd pipelines",
+          "docker",
+          "kubernetes",
+          "jenkins or github actions",
+          "git",
+          "cloud platforms"
+        ],
+        "preferred_skills": [
+          "helm",
+          "infrastructure as code",
+          "observability",
+          "microservices"
+        ],
+        "tech_stack": [
+          "docker",
+          "kubernetes",
+          "jenkins",
+          "github actions",
+          "aws",
+          "helm"
+        ]
+      },
+      {
+        "title": "Cloud Engineer - Platform & Reliability",
+        "summary": "Develop and maintain highly reliable cloud platforms with strong focus on observability, fault tolerance, and uptime.",
+        "responsibilities": [
+          "design highly available cloud systems",
+          "implement monitoring logging and alerting systems",
+          "handle incident response and root cause analysis",
+          "optimize system performance and reliability",
+          "ensure compliance with sla and slos"
+        ],
+        "required_skills": [
+          "observability",
+          "logging and monitoring",
+          "distributed systems",
+          "incident response",
+          "cloud platforms"
+        ],
+        "preferred_skills": [
+          "prometheus",
+          "grafana",
+          "chaos engineering",
+          "site reliability engineering principles"
+        ],
+        "tech_stack": [
+          "aws",
+          "prometheus",
+          "grafana",
+          "elk stack",
+          "kubernetes"
+        ]
+      },
+      {
+        "title": "Cloud Engineer - Security",
+        "summary": "Focus on securing cloud infrastructure by implementing robust security controls, identity management, and compliance measures.",
+        "responsibilities": [
+          "implement iam roles and access control policies",
+          "secure network configurations and endpoints",
+          "monitor and respond to security incidents",
+          "ensure compliance with security standards",
+          "conduct vulnerability assessments"
+        ],
+        "required_skills": [
+          "cloud security",
+          "iam roles and policies",
+          "network security",
+          "incident response",
+          "compliance standards"
+        ],
+        "preferred_skills": [
+          "zero trust architecture",
+          "security automation",
+          "penetration testing",
+          "encryption techniques"
+        ],
+        "tech_stack": [
+          "aws",
+          "azure",
+          "terraform",
+          "vault",
+          "cloud security tools"
+        ]
+      }
+    ]
+  },
+  "Full Stack Developer": {
+      "skills": [
+    "full stack development",
+    "frontend development",
+    "backend development",
+    "api design",
+    "database design",
+    "web application development",
+    "full stack architecture",
+    "authentication and authorization",
+    "state management",
+    "system integration",
+    "end to end feature development",
+    "javascript",
+    "typescript",
+    "python",
+    "java",
+    "sql",
+    "html",
+    "css",
+    "react",
+    "next.js",
+    "angular",
+    "vue",
+    "node.js",
+    "express",
+    "nestjs",
+    "django",
+    "flask",
+    "spring boot",
+    "git",
+    "docker",
+    "kubernetes",
+    "postgresql",
+    "mysql",
+    "mongodb",
+    "redis",
+    "nginx",
+    "graphql",
+    "rest",
+    "firebase",
+    "aws",
+    "restful api design",
+    "client server architecture",
+    "mvc architecture",
+    "microservices architecture",
+    "monolithic architecture",
+    "authentication flows",
+    "session management",
+    "jwt",
+    "caching strategies",
+    "database indexing",
+    "responsive design",
+    "cross origin resource sharing",
+    "api security",
+    "web performance optimization",
+    "scalable system design",
+    "error handling",
+    "logging and monitoring",
+    "deployment pipelines"
+  ]
+    ,
+    "job_descriptions": [
+      {
+        "title": "Full Stack Developer - Web Applications",
+        "summary": "Develop end-to-end web applications including frontend interfaces, backend services, and database systems.",
+        "responsibilities": [
+          "build responsive user interfaces and backend services",
+          "design and implement rest apis",
+          "integrate frontend with backend systems",
+          "manage databases and data models",
+          "ensure performance scalability and security"
+        ],
+        "required_skills": [
+          "javascript or typescript",
+          "react or angular or vue",
+          "node.js or django or spring boot",
+          "sql",
+          "api design",
+          "git"
+        ],
+        "preferred_skills": [
+          "docker",
+          "cloud platforms",
+          "graphql",
+          "redis"
+        ],
+        "tech_stack": [
+          "react",
+          "node.js",
+          "express",
+          "postgresql",
+          "docker",
+          "aws"
+        ]
+      },
+      {
+        "title": "Full Stack Developer - MERN Stack",
+        "summary": "Build scalable web applications using the MERN stack with focus on performance and maintainability.",
+        "responsibilities": [
+          "develop frontend using react",
+          "build backend services using node.js and express",
+          "manage mongodb databases",
+          "implement authentication and authorization",
+          "optimize application performance"
+        ],
+        "required_skills": [
+          "javascript",
+          "react",
+          "node.js",
+          "express",
+          "mongodb",
+          "rest api"
+        ],
+        "preferred_skills": [
+          "typescript",
+          "redux",
+          "docker",
+          "cloud deployment"
+        ],
+        "tech_stack": [
+          "react",
+          "node.js",
+          "express",
+          "mongodb",
+          "redux",
+          "docker"
+        ]
+      },
+      {
+        "title": "Full Stack Developer - Enterprise Applications",
+        "summary": "Develop large-scale enterprise applications with strong emphasis on architecture, scalability, and maintainability.",
+        "responsibilities": [
+          "design scalable full stack systems",
+          "develop backend services and frontend interfaces",
+          "ensure secure authentication and authorization",
+          "integrate with third party systems",
+          "maintain code quality and documentation"
+        ],
+        "required_skills": [
+          "java or python",
+          "spring boot or django",
+          "react or angular",
+          "database design",
+          "authentication and authorization"
+        ],
+        "preferred_skills": [
+          "microservices architecture",
+          "kubernetes",
+          "ci cd pipelines",
+          "cloud infrastructure"
+        ],
+        "tech_stack": [
+          "java",
+          "spring boot",
+          "react",
+          "postgresql",
+          "kubernetes",
+          "aws"
+        ]
+      },
+      {
+        "title": "Full Stack Developer - Startup / Generalist",
+        "summary": "Work across the entire stack to rapidly build and iterate on product features in a fast-paced startup environment.",
+        "responsibilities": [
+          "own features from idea to deployment",
+          "build frontend and backend components",
+          "deploy and monitor applications",
+          "debug issues across the stack",
+          "collaborate closely with product teams"
+        ],
+        "required_skills": [
+          "javascript or python",
+          "full stack development",
+          "api integration",
+          "database management",
+          "problem solving"
+        ],
+        "preferred_skills": [
+          "next.js",
+          "firebase",
+          "docker",
+          "startup experience"
+        ],
+        "tech_stack": [
+          "next.js",
+          "node.js",
+          "firebase",
+          "postgresql",
+          "docker"
+        ]
+      }
+    ]
+  }
+
+
+
+}
+
+

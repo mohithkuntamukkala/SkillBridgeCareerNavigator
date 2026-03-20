@@ -1,0 +1,1682 @@
+{
+  "machine learning": {
+    "questions": [
+      "Explain the difference between supervised, unsupervised, and reinforcement learning.",
+      "How would you choose between a classification model and a regression model for a business problem?",
+      "Describe the full workflow you would follow to build a machine learning solution from raw data to production."
+    ]
+  },
+  "deep learning": {
+    "questions": [
+      "What makes deep learning different from traditional machine learning methods?",
+      "How do activation functions affect training in deep neural networks?",
+      "What are common reasons a deep learning model fails to generalize well?"
+    ]
+  },
+  "natural language processing": {
+    "questions": [
+      "How would you preprocess text data for a natural language processing task?",
+      "What is the difference between tokenization, stemming, and lemmatization?",
+      "How would you evaluate an NLP model for tasks like classification or question answering?"
+    ]
+  },
+  "computer vision": {
+    "questions": [
+      "What preprocessing steps are commonly applied to image data before training a model?",
+      "How would you approach an image classification problem differently from an object detection problem?",
+      "What are common challenges in deploying computer vision systems in real-world environments?"
+    ]
+  },
+  "recommendation systems": {
+    "questions": [
+      "What is the difference between collaborative filtering and content-based recommendation systems?",
+      "How would you handle the cold-start problem in a recommendation system?",
+      "Which metrics would you use to evaluate a recommendation system and why?"
+    ]
+  },
+  "time series modeling": {
+    "questions": [
+      "What makes time series modeling different from standard regression problems?",
+      "How do you detect and handle seasonality and trend in time series data?",
+      "How would you validate a forecasting model without causing data leakage?"
+    ]
+  },
+  "reinforcement learning": {
+    "questions": [
+      "What are states, actions, rewards, and policies in reinforcement learning?",
+      "How does reinforcement learning differ from supervised learning?",
+      "What are some practical challenges in training reinforcement learning agents?"
+    ]
+  },
+  "model deployment": {
+    "questions": [
+      "What steps are required to deploy a machine learning model into production?",
+      "How would you expose a trained model as an API for real-time predictions?",
+      "What risks should be monitored after deployment of a model?"
+    ]
+  },
+  "ml system design": {
+    "questions": [
+      "How would you design an end-to-end machine learning system for a real-time prediction use case?",
+      "What components are required in a production-grade ML system?",
+      "How would you balance model accuracy, latency, and scalability in ML system design?"
+    ]
+  },
+  "python": {
+    "questions": [
+      "What Python features or libraries do you commonly use for data processing or backend development?",
+      "How do you manage dependencies and virtual environments in Python projects?",
+      "What are the differences between lists, tuples, sets, and dictionaries in Python?"
+    ]
+  },
+  "sql": {
+    "questions": [
+      "What is the difference between INNER JOIN, LEFT JOIN, and FULL OUTER JOIN?",
+      "How would you optimize a slow SQL query on a large table?",
+      "Explain the difference between GROUP BY and window functions."
+    ]
+  },
+  "scala": {
+    "questions": [
+      "What are the advantages of using Scala in data engineering or machine learning pipelines?",
+      "How do functional programming concepts in Scala help build reliable applications?",
+      "What is the difference between a val, var, and def in Scala?"
+    ]
+  },
+  "java": {
+    "questions": [
+      "What are the main features of Java that make it suitable for backend systems?",
+      "How does Java manage memory and garbage collection?",
+      "Explain the difference between an interface and an abstract class in Java."
+    ]
+  },
+  "pytorch": {
+    "questions": [
+      "How do you define and train a neural network in PyTorch?",
+      "What is the purpose of autograd in PyTorch?",
+      "How would you switch a model between training mode and evaluation mode in PyTorch?"
+    ]
+  },
+  "tensorflow": {
+    "questions": [
+      "How do you build and train a model in TensorFlow or Keras?",
+      "What is the role of tensors and computational graphs in TensorFlow?",
+      "How would you save and reload a trained TensorFlow model for production use?"
+    ]
+  },
+  "keras": {
+    "questions": [
+      "What are the advantages of using Keras for deep learning development?",
+      "How do you define a sequential model versus a functional model in Keras?",
+      "How would you add callbacks such as early stopping during training in Keras?"
+    ]
+  },
+  "scikit-learn": {
+    "questions": [
+      "How do you structure a machine learning workflow using scikit-learn pipelines?",
+      "What is the purpose of fit, transform, and predict in scikit-learn?",
+      "How would you perform hyperparameter tuning using scikit-learn?"
+    ]
+  },
+  "xgboost": {
+    "questions": [
+      "What makes XGBoost effective for tabular machine learning problems?",
+      "How does boosting differ from bagging?",
+      "Which hyperparameters in XGBoost most strongly affect model performance and overfitting?"
+    ]
+  },
+  "lightgbm": {
+    "questions": [
+      "How is LightGBM different from XGBoost?",
+      "Why is LightGBM often faster on large datasets?",
+      "What are important LightGBM parameters you would tune for a classification task?"
+    ]
+  },
+  "huggingface transformers": {
+    "questions": [
+      "How do transformer models differ from recurrent neural networks for NLP tasks?",
+      "How would you fine-tune a pretrained model using Hugging Face Transformers?",
+      "What is the purpose of tokenizers, model checkpoints, and attention masks in the Hugging Face ecosystem?"
+    ]
+  },
+  "spark ml": {
+    "questions": [
+      "When would you choose Spark ML over scikit-learn?",
+      "How do Spark ML pipelines help with large-scale machine learning workflows?",
+      "What are some common performance considerations when training models with Spark ML?"
+    ]
+  },
+  "docker": {
+    "questions": [
+      "What problem does Docker solve in software deployment?",
+      "What is the difference between a Docker image and a Docker container?",
+      "How would you containerize a Python or Node.js application for production?"
+    ]
+  },
+  "kubernetes": {
+    "questions": [
+      "What problems does Kubernetes solve for containerized applications?",
+      "What is the role of pods, deployments, and services in Kubernetes?",
+      "How would you perform a rolling update in Kubernetes without downtime?"
+    ]
+  },
+  "mlflow": {
+    "questions": [
+      "What are the main use cases of MLflow in an ML lifecycle?",
+      "How does MLflow help with experiment tracking and model versioning?",
+      "How would you use MLflow to compare multiple model training runs?"
+    ]
+  },
+  "airflow": {
+    "questions": [
+      "What is Apache Airflow used for in data and ML systems?",
+      "How do DAGs, tasks, and operators work in Airflow?",
+      "How would you design an Airflow pipeline for a daily model retraining workflow?"
+    ]
+  },
+  "kubeflow": {
+    "questions": [
+      "What role does Kubeflow play in machine learning platforms?",
+      "How is Kubeflow useful for reproducible ML pipelines on Kubernetes?",
+      "How would you compare Kubeflow with Airflow for ML workflows?"
+    ]
+  },
+  "dvc": {
+    "questions": [
+      "What problems does DVC solve in machine learning projects?",
+      "How does DVC help with versioning datasets and models alongside code?",
+      "How would you set up a reproducible ML experiment using DVC?"
+    ]
+  },
+  "wandb": {
+    "questions": [
+      "How does Weights and Biases help in machine learning experimentation?",
+      "What kinds of metrics and artifacts would you track in wandb during training?",
+      "How would you use wandb to compare multiple experiments across runs?"
+    ]
+  },
+  "git": {
+    "questions": [
+      "What is the difference between git merge and git rebase?",
+      "How would you resolve a merge conflict in Git?",
+      "Describe a branching strategy you would use in a team project."
+    ]
+  },
+  "fastapi": {
+    "questions": [
+      "What are the benefits of using FastAPI for building APIs?",
+      "How does FastAPI use type hints for validation and documentation?",
+      "How would you serve a machine learning model using FastAPI?"
+    ]
+  },
+  "flask": {
+    "questions": [
+      "What are the strengths and limitations of Flask for backend development?",
+      "How would you structure a Flask project for a production API?",
+      "How would you add routing and request handling in Flask?"
+    ]
+  },
+  "redis": {
+    "questions": [
+      "What kinds of problems is Redis commonly used to solve?",
+      "How does Redis improve performance in web applications?",
+      "What is the difference between using Redis for caching and as a message broker?"
+    ]
+  },
+  "kafka": {
+    "questions": [
+      "What is Kafka and when would you use it?",
+      "Explain the concepts of producer, consumer, topic, and partition in Kafka.",
+      "How do you ensure reliability and ordering in Kafka-based systems?"
+    ]
+  },
+  "feature engineering": {
+    "questions": [
+      "What is feature engineering and why is it important for model performance?",
+      "How would you create useful features from raw timestamp or categorical data?",
+      "How do you decide whether a feature is helping or hurting a model?"
+    ]
+  },
+  "model optimization": {
+    "questions": [
+      "What does model optimization mean in the context of training and deployment?",
+      "How would you optimize a model for lower latency in production?",
+      "What trade-offs arise when optimizing for speed versus accuracy?"
+    ]
+  },
+  "hyperparameter tuning": {
+    "questions": [
+      "What is the difference between model parameters and hyperparameters?",
+      "How would you choose between grid search, random search, and Bayesian optimization?",
+      "How do you avoid overfitting to the validation set during hyperparameter tuning?"
+    ]
+  },
+  "cross validation": {
+    "questions": [
+      "Why is cross validation used in machine learning?",
+      "What is the difference between k-fold cross validation and stratified k-fold cross validation?",
+      "When would cross validation be inappropriate or misleading?"
+    ]
+  },
+  "regularization": {
+    "questions": [
+      "What is regularization and why does it help reduce overfitting?",
+      "Explain the difference between L1 and L2 regularization.",
+      "How does dropout act as a form of regularization in deep learning?"
+    ]
+  },
+  "bias variance tradeoff": {
+    "questions": [
+      "What is the bias-variance tradeoff?",
+      "How can you diagnose whether a model is suffering from high bias or high variance?",
+      "What actions would you take to reduce variance without increasing bias too much?"
+    ]
+  },
+  "model interpretability": {
+    "questions": [
+      "Why is model interpretability important in production machine learning systems?",
+      "What techniques can be used to interpret black-box models?",
+      "How would you explain a model prediction to a non-technical stakeholder?"
+    ]
+  },
+  "data drift": {
+    "questions": [
+      "What is data drift and how is it different from concept drift?",
+      "How would you detect data drift in a deployed model pipeline?",
+      "What actions would you take once significant data drift is detected?"
+    ]
+  },
+  "concept drift": {
+    "questions": [
+      "What is concept drift in machine learning systems?",
+      "How can concept drift affect model performance over time?",
+      "How would you design a monitoring strategy to identify concept drift?"
+    ]
+  },
+  "online inference": {
+    "questions": [
+      "What is online inference and when is it preferred over batch inference?",
+      "What are the key latency considerations in an online inference system?",
+      "How would you design an API-backed online inference service?"
+    ]
+  },
+  "batch inference": {
+    "questions": [
+      "What is batch inference and when is it a better choice than online inference?",
+      "How would you design a batch inference pipeline for millions of records?",
+      "What operational issues can arise in large-scale batch inference jobs?"
+    ]
+  },
+  "distributed training": {
+    "questions": [
+      "Why is distributed training needed for some deep learning workloads?",
+      "What is the difference between data parallelism and model parallelism?",
+      "What are common bottlenecks in distributed training systems?"
+    ]
+  },
+  "embedding techniques": {
+    "questions": [
+      "What are embeddings and why are they useful in machine learning and NLP?",
+      "How do learned embeddings differ from one-hot encoded representations?",
+      "How would you evaluate whether an embedding space is useful for downstream tasks?"
+    ]
+  },
+  "transfer learning": {
+    "questions": [
+      "What is transfer learning and why is it effective in deep learning?",
+      "When would you use a pretrained model instead of training from scratch?",
+      "What risks or limitations should you consider when applying transfer learning?"
+    ]
+  },
+  "fine tuning": {
+    "questions": [
+      "What does fine tuning mean in the context of pretrained models?",
+      "How do you decide which layers to freeze or unfreeze during fine tuning?",
+      "What are signs that fine tuning is overfitting to a small dataset?"
+    ]
+  },
+  "a b testing for ml": {
+    "questions": [
+      "How is A/B testing used to evaluate machine learning models in production?",
+      "What metrics would you monitor in an A/B test for an ML-powered feature?",
+      "What are common pitfalls when running A/B tests on machine learning systems?"
+    ]
+  },
+  "model monitoring": {
+    "questions": [
+      "What should be monitored after deploying a machine learning model?",
+      "How would you distinguish between a model issue and a data pipeline issue in monitoring?",
+      "What alerts or thresholds would you define for model monitoring?"
+    ]
+  },
+  "exploratory data analysis": {
+    "questions": [
+      "What are the main goals of exploratory data analysis?",
+      "How would you approach EDA on a new dataset you have never seen before?",
+      "Which visualizations do you commonly use during exploratory data analysis and why?"
+    ]
+  },
+  "statistical modeling": {
+    "questions": [
+      "What is statistical modeling and how is it different from purely predictive modeling?",
+      "How do assumptions affect the validity of a statistical model?",
+      "How would you choose between a linear model and a more complex statistical model?"
+    ]
+  },
+  "data visualization": {
+    "questions": [
+      "What makes a data visualization effective for communicating insights?",
+      "How would you choose the right chart type for a given analytical question?",
+      "What are common mistakes to avoid when presenting visualizations to stakeholders?"
+    ]
+  },
+  "experiment design": {
+    "questions": [
+      "What factors must be considered when designing an experiment?",
+      "How do you choose treatment groups, control groups, and success metrics?",
+      "What can go wrong in experiment design and how would you mitigate it?"
+    ]
+  },
+  "causal inference": {
+    "questions": [
+      "How is causal inference different from correlation analysis?",
+      "What methods can be used to estimate causal effects from observational data?",
+      "What assumptions must hold for a causal inference result to be trustworthy?"
+    ]
+  },
+  "time series analysis": {
+    "questions": [
+      "What are the main components of a time series?",
+      "How do you check whether a time series is stationary?",
+      "How would you evaluate a time series forecasting model?"
+    ]
+  },
+  "predictive modeling": {
+    "questions": [
+      "What steps are involved in building a predictive model for a business problem?",
+      "How do you decide whether a predictive model is ready for deployment?",
+      "What is the difference between a model with good fit and a model with good predictive power?"
+    ]
+  },
+  "business analytics": {
+    "questions": [
+      "How does business analytics differ from pure data science research?",
+      "How would you translate a vague business problem into measurable analytical goals?",
+      "How do you prioritize insights when presenting to business stakeholders?"
+    ]
+  },
+  "r": {
+    "questions": [
+      "What are the strengths of R for statistical analysis and data science?",
+      "How do data frames in R compare with similar structures in Python?",
+      "Which R packages do you commonly use for modeling and visualization?"
+    ]
+  },
+  "statsmodels": {
+    "questions": [
+      "What kinds of statistical analyses is statsmodels particularly suited for?",
+      "How is statsmodels different from scikit-learn?",
+      "How would you interpret regression outputs produced by statsmodels?"
+    ]
+  },
+  "pandas": {
+    "questions": [
+      "How do you handle missing data and duplicates in pandas?",
+      "What is the difference between loc and iloc in pandas?",
+      "How would you optimize a slow pandas workflow on a large dataset?"
+    ]
+  },
+  "numpy": {
+    "questions": [
+      "Why is NumPy more efficient than native Python lists for numerical operations?",
+      "What is broadcasting in NumPy?",
+      "How would you explain the difference between a NumPy array and a pandas DataFrame?"
+    ]
+  },
+  "jupyter": {
+    "questions": [
+      "What are the advantages and limitations of using Jupyter notebooks?",
+      "How do you keep notebooks maintainable and reproducible in team environments?",
+      "When would you move work from a notebook into a production codebase?"
+    ]
+  },
+  "tableau": {
+    "questions": [
+      "How do you design dashboards in Tableau that are useful to business users?",
+      "What is the difference between a calculated field and a parameter in Tableau?",
+      "How would you optimize a slow Tableau dashboard?"
+    ]
+  },
+  "power bi": {
+    "questions": [
+      "What are the strengths of Power BI for analytics and reporting?",
+      "How do relationships between tables affect reporting in Power BI?",
+      "How would you design a dashboard in Power BI for executive stakeholders?"
+    ]
+  },
+  "excel": {
+    "questions": [
+      "Which Excel features are most useful for data analysis?",
+      "How would you use pivot tables to summarize a large dataset?",
+      "What are the limitations of Excel compared with SQL or Python for analysis?"
+    ]
+  },
+  "dbt": {
+    "questions": [
+      "What problem does dbt solve in modern data workflows?",
+      "How do models, tests, and documentation work in dbt?",
+      "How would you structure a dbt project for an analytics team?"
+    ]
+  },
+  "snowflake": {
+    "questions": [
+      "What are the main architectural characteristics of Snowflake?",
+      "How does Snowflake separate storage and compute, and why is that useful?",
+      "How would you optimize cost and performance in Snowflake?"
+    ]
+  },
+  "bigquery": {
+    "questions": [
+      "What types of workloads is BigQuery well suited for?",
+      "How does BigQuery differ from traditional relational databases?",
+      "How would you manage query cost and performance in BigQuery?"
+    ]
+  },
+  "hypothesis testing": {
+    "questions": [
+      "What are the null hypothesis and alternative hypothesis?",
+      "How do p-values and significance levels relate to hypothesis testing?",
+      "What are type I and type II errors?"
+    ]
+  },
+  "regression analysis": {
+    "questions": [
+      "What assumptions underlie linear regression?",
+      "How do you interpret coefficients in a regression model?",
+      "How would you check whether a regression model is appropriate for the data?"
+    ]
+  },
+  "classification": {
+    "questions": [
+      "What is the difference between binary classification and multiclass classification?",
+      "Which metrics would you use to evaluate a classification model and why?",
+      "How would you handle class imbalance in a classification problem?"
+    ]
+  },
+  "clustering": {
+    "questions": [
+      "What is clustering and when is it useful?",
+      "How do k-means and hierarchical clustering differ?",
+      "How would you evaluate the quality of clusters when labels are unavailable?"
+    ]
+  },
+  "dimensionality reduction": {
+    "questions": [
+      "Why is dimensionality reduction useful in machine learning and data analysis?",
+      "How do PCA and t-SNE differ in purpose and interpretation?",
+      "What are the risks of reducing dimensions before modeling?"
+    ]
+  },
+  "feature selection": {
+    "questions": [
+      "Why is feature selection important?",
+      "What is the difference between filter, wrapper, and embedded feature selection methods?",
+      "How would you detect whether a feature should be removed from a model?"
+    ]
+  },
+  "data cleaning": {
+    "questions": [
+      "What are the most common data quality issues you look for during data cleaning?",
+      "How do you handle duplicate, inconsistent, or malformed records?",
+      "How would you document assumptions made during data cleaning?"
+    ]
+  },
+  "outlier detection": {
+    "questions": [
+      "What methods can be used to detect outliers in a dataset?",
+      "How do you decide whether an outlier should be removed, transformed, or retained?",
+      "How can outliers affect model training and evaluation?"
+    ]
+  },
+  "missing data imputation": {
+    "questions": [
+      "What are common strategies for imputing missing data?",
+      "How do you choose between simple imputation and model-based imputation?",
+      "What risks arise when imputing missing values incorrectly?"
+    ]
+  },
+  "a b testing": {
+    "questions": [
+      "What are the key steps in designing and analyzing an A/B test?",
+      "How do you determine whether an A/B test result is statistically significant?",
+      "What are common sources of bias in A/B tests?"
+    ]
+  },
+  "confidence intervals": {
+    "questions": [
+      "What does a confidence interval represent?",
+      "How should a 95 percent confidence interval be interpreted correctly?",
+      "How do sample size and variance affect confidence intervals?"
+    ]
+  },
+  "p value interpretation": {
+    "questions": [
+      "What does a p-value actually tell you?",
+      "What are common misconceptions about p-values?",
+      "Why is statistical significance not the same as practical significance?"
+    ]
+  },
+  "bayesian inference": {
+    "questions": [
+      "How does Bayesian inference differ from frequentist inference?",
+      "What are priors, likelihoods, and posteriors?",
+      "When is Bayesian inference especially useful in practice?"
+    ]
+  },
+  "model evaluation metrics": {
+    "questions": [
+      "How do you choose the right evaluation metric for a machine learning problem?",
+      "Why might accuracy be misleading in some cases?",
+      "How would you explain precision, recall, F1 score, and ROC-AUC to a stakeholder?"
+    ]
+  },
+  "data storytelling": {
+    "questions": [
+      "What is data storytelling and why does it matter?",
+      "How do you present analytical results in a way that drives action?",
+      "What is the balance between detail and clarity in a stakeholder presentation?"
+    ]
+  },
+  "backend development": {
+    "questions": [
+      "What are the key responsibilities of backend development in a modern application?",
+      "How would you design a backend service to be maintainable and scalable?",
+      "What trade-offs do you consider when choosing backend technologies?"
+    ]
+  },
+  "api design": {
+    "questions": [
+      "What principles guide good API design?",
+      "How would you design an API that is easy to use, version, and maintain?",
+      "What are common mistakes developers make when designing APIs?"
+    ]
+  },
+  "server side development": {
+    "questions": [
+      "What is the role of server-side development in web applications?",
+      "How do server-side concerns differ from frontend concerns?",
+      "How would you structure server-side logic for reliability and maintainability?"
+    ]
+  },
+  "database design": {
+    "questions": [
+      "What factors do you consider when designing a database schema?",
+      "How do normalization and denormalization affect database design?",
+      "How would you design a database for a high-traffic transactional system?"
+    ]
+  },
+  "distributed systems": {
+    "questions": [
+      "What makes distributed systems difficult to design and operate?",
+      "What trade-offs are described by the CAP theorem?",
+      "How do you handle failures and partial outages in distributed systems?"
+    ]
+  },
+  "microservices architecture": {
+    "questions": [
+      "What are the benefits and drawbacks of microservices architecture?",
+      "How do services communicate in a microservices system?",
+      "What challenges arise when deploying and monitoring many microservices?"
+    ]
+  },
+  "authentication and authorization": {
+    "questions": [
+      "What is the difference between authentication and authorization?",
+      "How would you design a secure login and access control system?",
+      "What are common security mistakes in authentication and authorization flows?"
+    ]
+  },
+  "scalable system design": {
+    "questions": [
+      "What does scalability mean in backend or platform systems?",
+      "How would you design a system to handle 10 times more traffic than today?",
+      "How do you identify and remove bottlenecks in a scalable architecture?"
+    ]
+  },
+  "event driven architecture": {
+    "questions": [
+      "What is event-driven architecture and when is it useful?",
+      "How does it differ from request-response communication?",
+      "What challenges arise in ensuring consistency in event-driven systems?"
+    ]
+  },
+  "data processing": {
+    "questions": [
+      "What is the difference between batch data processing and stream processing?",
+      "How would you design a data processing pipeline for high-volume events?",
+      "What reliability concerns do you consider in data processing systems?"
+    ]
+  },
+  "javascript": {
+    "questions": [
+      "What are closures in JavaScript and why are they useful?",
+      "Explain the difference between var, let, and const.",
+      "How does the event loop work in JavaScript?"
+    ]
+  },
+  "typescript": {
+    "questions": [
+      "What benefits does TypeScript provide over plain JavaScript?",
+      "What is the difference between interface and type in TypeScript?",
+      "How do generics improve code reuse and type safety in TypeScript?"
+    ]
+  },
+  "go": {
+    "questions": [
+      "What are the strengths of Go for backend or infrastructure systems?",
+      "How do goroutines and channels work in Go?",
+      "How would you handle concurrency safely in a Go service?"
+    ]
+  },
+  "c#": {
+    "questions": [
+      "What are the main strengths of C# for backend development?",
+      "How does async and await work in C#?",
+      "What is the role of interfaces and dependency injection in C# applications?"
+    ]
+  },
+  "django": {
+    "questions": [
+      "What are the main components provided by Django out of the box?",
+      "How does Django ORM simplify database access?",
+      "How would you structure a Django project for a production web application?"
+    ]
+  },
+  "spring boot": {
+    "questions": [
+      "What problems does Spring Boot solve for Java backend development?",
+      "How does dependency injection work in Spring Boot?",
+      "How would you expose a REST API using Spring Boot?"
+    ]
+  },
+  "express": {
+    "questions": [
+      "What is Express and why is it popular in Node.js backend development?",
+      "How do middleware functions work in Express?",
+      "How would you structure an Express application for maintainability?"
+    ]
+  },
+  "nestjs": {
+    "questions": [
+      "What advantages does NestJS provide over using Express directly?",
+      "How do modules, controllers, and providers work in NestJS?",
+      "How does NestJS support dependency injection and scalable architecture?"
+    ]
+  },
+  "asp.net core": {
+    "questions": [
+      "What are the strengths of ASP.NET Core for backend development?",
+      "How does middleware work in ASP.NET Core?",
+      "How would you build and secure a REST API in ASP.NET Core?"
+    ]
+  },
+  "nginx": {
+    "questions": [
+      "What is Nginx commonly used for in web infrastructure?",
+      "How does Nginx act as a reverse proxy and load balancer?",
+      "How would you configure Nginx in front of an application server?"
+    ]
+  },
+  "rabbitmq": {
+    "questions": [
+      "What kinds of use cases is RabbitMQ well suited for?",
+      "How does RabbitMQ differ from Kafka?",
+      "What are exchanges, queues, and routing keys in RabbitMQ?"
+    ]
+  },
+  "postgresql": {
+    "questions": [
+      "What are the strengths of PostgreSQL compared with other databases?",
+      "How do indexes improve PostgreSQL query performance?",
+      "How would you diagnose a slow PostgreSQL query?"
+    ]
+  },
+  "mysql": {
+    "questions": [
+      "What types of workloads is MySQL commonly used for?",
+      "How do transactions work in MySQL?",
+      "How would you optimize MySQL performance for a read-heavy application?"
+    ]
+  },
+  "mongodb": {
+    "questions": [
+      "When would you choose MongoDB over a relational database?",
+      "What are the trade-offs of schema flexibility in MongoDB?",
+      "How does indexing work in MongoDB and why is it important?"
+    ]
+  },
+  "elasticsearch": {
+    "questions": [
+      "What kinds of problems is Elasticsearch designed to solve?",
+      "How do inverted indexes enable fast search in Elasticsearch?",
+      "How would you design an Elasticsearch index for application search?"
+    ]
+  },
+  "graphql": {
+    "questions": [
+      "How does GraphQL differ from REST?",
+      "What are the advantages and risks of exposing a GraphQL API?",
+      "How do resolvers and schemas work in GraphQL?"
+    ]
+  },
+  "rest": {
+    "questions": [
+      "What are the core principles of REST?",
+      "How do HTTP methods map to CRUD operations in REST APIs?",
+      "What are common reasons a REST API becomes hard to maintain?"
+    ]
+  },
+  "grpc": {
+    "questions": [
+      "What is gRPC and how does it differ from REST?",
+      "When is gRPC a better choice than REST for service-to-service communication?",
+      "What role do protocol buffers play in gRPC?"
+    ]
+  },
+  "restful api design": {
+    "questions": [
+      "What makes an API truly RESTful?",
+      "How would you design resource naming, status codes, and versioning in a RESTful API?",
+      "How do you handle pagination, filtering, and error responses in RESTful APIs?"
+    ]
+  },
+  "database normalization": {
+    "questions": [
+      "What is database normalization and why is it useful?",
+      "What are first, second, and third normal forms?",
+      "When might you intentionally denormalize a schema?"
+    ]
+  },
+  "indexing": {
+    "questions": [
+      "How do database indexes improve query performance?",
+      "What trade-offs come with adding too many indexes?",
+      "How would you determine whether a query needs a new index?"
+    ]
+  },
+  "caching strategies": {
+    "questions": [
+      "Why is caching useful in web and backend systems?",
+      "What is the difference between cache-aside, write-through, and write-back caching?",
+      "How do you handle cache invalidation correctly?"
+    ]
+  },
+  "rate limiting": {
+    "questions": [
+      "Why is rate limiting important in public APIs?",
+      "What algorithms can be used to implement rate limiting?",
+      "How would you design rate limiting for fairness and abuse prevention?"
+    ]
+  },
+  "load balancing": {
+    "questions": [
+      "What problem does load balancing solve?",
+      "What is the difference between layer 4 and layer 7 load balancing?",
+      "How does load balancing contribute to high availability and scalability?"
+    ]
+  },
+  "horizontal scaling": {
+    "questions": [
+      "What is horizontal scaling and how does it differ from vertical scaling?",
+      "What architectural changes are often needed to support horizontal scaling?",
+      "What state-related challenges appear when horizontally scaling applications?"
+    ]
+  },
+  "vertical scaling": {
+    "questions": [
+      "What is vertical scaling and when is it appropriate?",
+      "What are the limitations of vertical scaling compared with horizontal scaling?",
+      "How do you decide whether to scale up or scale out?"
+    ]
+  },
+  "consistency models": {
+    "questions": [
+      "What is a consistency model in distributed systems?",
+      "How do strong consistency and eventual consistency differ?",
+      "How do consistency requirements affect system design choices?"
+    ]
+  },
+  "cap theorem": {
+    "questions": [
+      "What does the CAP theorem state?",
+      "Why can a distributed system not fully guarantee consistency, availability, and partition tolerance at the same time?",
+      "How does CAP theorem influence database and system architecture decisions?"
+    ]
+  },
+  "idempotency": {
+    "questions": [
+      "What does idempotency mean in backend systems?",
+      "Why is idempotency important for retries and distributed workflows?",
+      "How would you design an idempotent API endpoint?"
+    ]
+  },
+  "retry mechanisms": {
+    "questions": [
+      "Why are retry mechanisms needed in distributed systems?",
+      "What risks arise from naive retry logic?",
+      "How do backoff strategies improve retry mechanisms?"
+    ]
+  },
+  "circuit breaker pattern": {
+    "questions": [
+      "What problem does the circuit breaker pattern solve?",
+      "How does a circuit breaker prevent cascading failures?",
+      "When would you combine retries with a circuit breaker?"
+    ]
+  },
+  "message queues": {
+    "questions": [
+      "What role do message queues play in distributed architectures?",
+      "How do message queues improve decoupling and reliability?",
+      "What trade-offs do message queues introduce into system design?"
+    ]
+  },
+  "schema design": {
+    "questions": [
+      "What factors influence good schema design?",
+      "How would schema design differ between transactional and analytical systems?",
+      "How do evolving requirements affect schema design decisions?"
+    ]
+  },
+  "transactions": {
+    "questions": [
+      "What guarantees do database transactions provide?",
+      "Explain the ACID properties of transactions.",
+      "What trade-offs arise when using transactions in high-scale systems?"
+    ]
+  },
+  "connection pooling": {
+    "questions": [
+      "Why is connection pooling important in backend applications?",
+      "What problems can occur if database connections are not managed correctly?",
+      "How would you tune a connection pool for a high-traffic service?"
+    ]
+  },
+  "observability": {
+    "questions": [
+      "What are the main pillars of observability?",
+      "How is observability different from basic monitoring?",
+      "How would you improve observability in a distributed production system?"
+    ]
+  },
+  "logging and monitoring": {
+    "questions": [
+      "What is the difference between logging and monitoring?",
+      "What kinds of logs and metrics are most important in production systems?",
+      "How would you design alerts that are useful without being noisy?"
+    ]
+  },
+  "security best practices": {
+    "questions": [
+      "What are essential security best practices for web applications and APIs?",
+      "How do you protect sensitive data in transit and at rest?",
+      "What common security vulnerabilities should developers watch for?"
+    ]
+  },
+  "frontend development": {
+    "questions": [
+      "What are the key responsibilities of frontend development?",
+      "How do you balance user experience, performance, and maintainability in frontend work?",
+      "What factors influence your choice of frontend framework or architecture?"
+    ]
+  },
+  "ui development": {
+    "questions": [
+      "What makes a user interface effective and intuitive?",
+      "How do you translate design requirements into maintainable UI components?",
+      "How do you ensure consistency across a large UI codebase?"
+    ]
+  },
+  "component based architecture": {
+    "questions": [
+      "What are the benefits of component-based architecture in frontend applications?",
+      "How do you decide component boundaries and responsibilities?",
+      "What problems arise when components become too coupled or too generic?"
+    ]
+  },
+  "responsive design": {
+    "questions": [
+      "What principles guide responsive design?",
+      "How do you adapt layouts across mobile, tablet, and desktop screens?",
+      "What are common mistakes developers make in responsive design?"
+    ]
+  },
+  "state management": {
+    "questions": [
+      "What kinds of state exist in frontend applications?",
+      "When would you use local component state versus a global state solution?",
+      "What are signs that state management in an app has become too complex?"
+    ]
+  },
+  "web performance optimization": {
+    "questions": [
+      "What metrics do you look at when evaluating frontend performance?",
+      "How do techniques like code splitting and lazy loading improve performance?",
+      "How would you diagnose a slow-loading web application?"
+    ]
+  },
+  "accessibility": {
+    "questions": [
+      "Why is accessibility important in frontend development?",
+      "What are some practical ways to make a web application more accessible?",
+      "How do semantic HTML and keyboard navigation support accessibility?"
+    ]
+  },
+  "cross browser compatibility": {
+    "questions": [
+      "Why do cross-browser issues occur in frontend development?",
+      "How do you test and debug browser-specific UI problems?",
+      "What strategies help maintain cross-browser compatibility over time?"
+    ]
+  },
+  "frontend architecture": {
+    "questions": [
+      "What makes a frontend architecture scalable and maintainable?",
+      "How do you organize code in a large frontend application?",
+      "What trade-offs arise when choosing between different frontend architectural patterns?"
+    ]
+  },
+  "design systems": {
+    "questions": [
+      "What is a design system and why is it valuable?",
+      "How do design systems improve consistency across products?",
+      "How would you manage versioning and adoption of a shared design system?"
+    ]
+  },
+  "client side routing": {
+    "questions": [
+      "What is client-side routing and how does it differ from server-side routing?",
+      "How do modern frontend frameworks handle route changes without full page reloads?",
+      "What are common challenges with protected routes and nested routes?"
+    ]
+  },
+  "html": {
+    "questions": [
+      "What is the role of semantic HTML in modern web development?",
+      "How does the browser interpret the structure of an HTML document?",
+      "Why is semantic HTML important for accessibility and SEO?"
+    ]
+  },
+  "css": {
+    "questions": [
+      "How does the CSS box model work?",
+      "What is the difference between relative, absolute, fixed, and sticky positioning?",
+      "How do specificity and cascade affect applied styles?"
+    ]
+  },
+  "react": {
+    "questions": [
+      "How does React's component model help build complex UIs?",
+      "What is the virtual DOM and how does React use it?",
+      "How do hooks like useState and useEffect work in React?"
+    ]
+  },
+  "next.js": {
+    "questions": [
+      "What features does Next.js provide on top of React?",
+      "What is the difference between server-side rendering, static site generation, and client-side rendering in Next.js?",
+      "How would you choose between app router and pages router concepts in a Next.js project?"
+    ]
+  },
+  "angular": {
+    "questions": [
+      "What are the main architectural concepts in Angular?",
+      "How do components, services, and modules work together in Angular?",
+      "What are the benefits of using TypeScript heavily in Angular applications?"
+    ]
+  },
+  "vue": {
+    "questions": [
+      "What are the core concepts behind Vue's reactivity system?",
+      "How do Vue components differ from React components in development style?",
+      "When would Vue be a strong choice for a frontend application?"
+    ]
+  },
+  "redux": {
+    "questions": [
+      "What problem does Redux solve in frontend applications?",
+      "What are actions, reducers, and the store in Redux?",
+      "When is Redux unnecessary or overly complex?"
+    ]
+  },
+  "zustand": {
+    "questions": [
+      "How does Zustand differ from Redux for state management?",
+      "What are the advantages of Zustand in smaller or medium-sized applications?",
+      "How would you decide whether Zustand is sufficient for a project?"
+    ]
+  },
+  "tailwind css": {
+    "questions": [
+      "What are the advantages and drawbacks of using Tailwind CSS?",
+      "How does utility-first styling differ from traditional CSS approaches?",
+      "How do you keep a Tailwind-based codebase maintainable at scale?"
+    ]
+  },
+  "bootstrap": {
+    "questions": [
+      "What problems does Bootstrap solve in frontend development?",
+      "What are the pros and cons of relying on Bootstrap components?",
+      "How would you customize Bootstrap while keeping a consistent design?"
+    ]
+  },
+  "webpack": {
+    "questions": [
+      "What is the role of Webpack in frontend projects?",
+      "How do loaders and plugins work in Webpack?",
+      "How would you optimize bundle size using Webpack?"
+    ]
+  },
+  "vite": {
+    "questions": [
+      "What makes Vite faster during development than older bundling tools?",
+      "How does Vite handle development builds and production builds differently?",
+      "When would you choose Vite for a frontend project?"
+    ]
+  },
+  "babel": {
+    "questions": [
+      "What problem does Babel solve in JavaScript development?",
+      "How does transpilation help with browser compatibility?",
+      "How do Babel plugins and presets work?"
+    ]
+  },
+  "eslint": {
+    "questions": [
+      "What is the purpose of ESLint in a project?",
+      "How do linting rules improve code quality and maintainability?",
+      "How would you integrate ESLint into a team workflow?"
+    ]
+  },
+  "prettier": {
+    "questions": [
+      "What problem does Prettier solve in development teams?",
+      "How does Prettier differ from ESLint?",
+      "How would you use Prettier and ESLint together without conflicts?"
+    ]
+  },
+  "npm": {
+    "questions": [
+      "What is npm and what role does it play in JavaScript projects?",
+      "What is the difference between dependencies and devDependencies?",
+      "How do package-lock files help with reproducible builds?"
+    ]
+  },
+  "yarn": {
+    "questions": [
+      "How does Yarn differ from npm?",
+      "What advantages does Yarn provide in dependency management?",
+      "When would a team prefer Yarn over npm?"
+    ]
+  },
+  "pnpm": {
+    "questions": [
+      "What makes pnpm different from npm and Yarn?",
+      "How does pnpm improve disk usage and installation speed?",
+      "What considerations come up when adopting pnpm in an existing project?"
+    ]
+  },
+  "storybook": {
+    "questions": [
+      "What is Storybook used for in frontend development?",
+      "How does Storybook help in building component libraries and design systems?",
+      "How would you organize stories for reusable UI components?"
+    ]
+  },
+  "figma": {
+    "questions": [
+      "How do developers typically collaborate with designers using Figma?",
+      "How do you translate a Figma design into production-ready frontend code?",
+      "What kinds of implementation details do you clarify before starting from a Figma design?"
+    ]
+  },
+  "chrome devtools": {
+    "questions": [
+      "Which Chrome DevTools features do you use most often for debugging?",
+      "How do you use DevTools to analyze rendering and network performance?",
+      "How would you debug a layout issue or memory leak using Chrome DevTools?"
+    ]
+  },
+  "dom manipulation": {
+    "questions": [
+      "What is the DOM and how does DOM manipulation affect performance?",
+      "How do direct DOM updates differ from framework-managed updates?",
+      "What are common pitfalls when manipulating the DOM manually?"
+    ]
+  },
+  "virtual dom": {
+    "questions": [
+      "What is the virtual DOM and why is it useful?",
+      "How does the virtual DOM reduce expensive direct DOM operations?",
+      "What are the limitations or misconceptions around the virtual DOM?"
+    ]
+  },
+  "event handling": {
+    "questions": [
+      "How does event propagation work in the browser?",
+      "What is the difference between event bubbling and event capturing?",
+      "How would you manage complex event handling in interactive UIs?"
+    ]
+  },
+  "asynchronous programming": {
+    "questions": [
+      "What is asynchronous programming and why is it important in JavaScript applications?",
+      "How do callbacks, promises, and async-await differ?",
+      "What kinds of bugs commonly occur in asynchronous code?"
+    ]
+  },
+  "promises and async await": {
+    "questions": [
+      "How do promises work in JavaScript?",
+      "What are the benefits of async-await over promise chaining?",
+      "How would you handle errors properly in async-await code?"
+    ]
+  },
+  "api integration": {
+    "questions": [
+      "What steps do you follow when integrating a frontend or service with an external API?",
+      "How do you handle loading states, retries, and failures during API integration?",
+      "What security and performance considerations matter in API integration?"
+    ]
+  },
+  "rest api consumption": {
+    "questions": [
+      "How do frontend applications typically consume REST APIs?",
+      "How do you handle authentication, pagination, and error responses while consuming REST APIs?",
+      "What patterns help keep REST API consumption maintainable in large frontend apps?"
+    ]
+  },
+  "lazy loading": {
+    "questions": [
+      "What is lazy loading and how does it improve performance?",
+      "What parts of an application can be lazy loaded?",
+      "What trade-offs or UX concerns can arise from aggressive lazy loading?"
+    ]
+  },
+  "code splitting": {
+    "questions": [
+      "What is code splitting and why is it useful?",
+      "How does code splitting differ from minification or tree shaking?",
+      "How would you decide where to split code in a large application?"
+    ]
+  },
+  "seo optimization": {
+    "questions": [
+      "Why does SEO optimization matter for web applications?",
+      "How do rendering strategies affect SEO?",
+      "What technical frontend changes improve SEO performance?"
+    ]
+  },
+  "web vitals": {
+    "questions": [
+      "What are Core Web Vitals and why do they matter?",
+      "How would you improve metrics like LCP, CLS, and INP?",
+      "How do you measure Web Vitals in development and production?"
+    ]
+  },
+  "hydration": {
+    "questions": [
+      "What is hydration in server-rendered web applications?",
+      "Why can hydration mismatches happen?",
+      "How would you debug hydration issues in a React or Next.js app?"
+    ]
+  },
+  "server side rendering": {
+    "questions": [
+      "What are the benefits and trade-offs of server-side rendering?",
+      "How does server-side rendering differ from client-side rendering and static generation?",
+      "When is server-side rendering the best choice for an application?"
+    ]
+  },
+  "static site generation": {
+    "questions": [
+      "What is static site generation and when is it useful?",
+      "How does static generation differ from server-side rendering?",
+      "What are the limitations of static site generation for dynamic applications?"
+    ]
+  },
+  "progressive web apps": {
+    "questions": [
+      "What characteristics define a progressive web app?",
+      "How do service workers enable offline support in PWAs?",
+      "What trade-offs should be considered before building a PWA?"
+    ]
+  },
+  "css architecture": {
+    "questions": [
+      "Why is CSS architecture important in large applications?",
+      "What approaches can be used to organize CSS at scale?",
+      "How do you prevent style conflicts and long-term maintainability issues?"
+    ]
+  },
+  "browser rendering lifecycle": {
+    "questions": [
+      "What stages are involved in the browser rendering lifecycle?",
+      "How do reflow and repaint affect frontend performance?",
+      "How would you debug rendering bottlenecks in the browser?"
+    ]
+  },
+  "cloud engineering": {
+    "questions": [
+      "What are the core responsibilities of a cloud engineer?",
+      "How do cloud engineers balance reliability, security, and cost?",
+      "What factors influence the design of cloud infrastructure?"
+    ]
+  },
+  "cloud architecture": {
+    "questions": [
+      "What principles guide good cloud architecture?",
+      "How do you design cloud systems for scalability and fault tolerance?",
+      "What trade-offs do you consider when choosing managed versus self-managed services?"
+    ]
+  },
+  "infrastructure as code": {
+    "questions": [
+      "What is infrastructure as code and why is it important?",
+      "How does infrastructure as code improve reproducibility and operational safety?",
+      "What risks arise when infrastructure is managed manually instead of as code?"
+    ]
+  },
+  "cloud networking": {
+    "questions": [
+      "What are the key networking concepts a cloud engineer should understand?",
+      "How do subnets, routing, and security groups work together in cloud networking?",
+      "How would you design a secure network layout for cloud services?"
+    ]
+  },
+  "cloud security": {
+    "questions": [
+      "What are the main concerns in securing cloud environments?",
+      "How do identity, network, and data security interact in cloud security?",
+      "How would you reduce the attack surface of a cloud deployment?"
+    ]
+  },
+  "scalable infrastructure design": {
+    "questions": [
+      "What does scalable infrastructure design mean in practice?",
+      "How would you design infrastructure to handle sudden traffic growth?",
+      "How do cost and resilience affect scalable infrastructure decisions?"
+    ]
+  },
+  "high availability systems": {
+    "questions": [
+      "What makes a system highly available?",
+      "How do redundancy and failover improve availability?",
+      "How would you design for high availability across multiple zones or regions?"
+    ]
+  },
+  "disaster recovery": {
+    "questions": [
+      "What is the purpose of a disaster recovery plan?",
+      "How do RPO and RTO influence disaster recovery design?",
+      "How would you test whether a disaster recovery plan actually works?"
+    ]
+  },
+  "cost optimization": {
+    "questions": [
+      "What strategies help optimize cloud infrastructure costs?",
+      "How do you identify underutilized resources in a cloud environment?",
+      "How do you balance cost optimization with performance and reliability?"
+    ]
+  },
+  "cloud operations": {
+    "questions": [
+      "What activities fall under cloud operations?",
+      "How do monitoring, automation, and incident response support cloud operations?",
+      "How would you improve day-to-day operational efficiency in a cloud team?"
+    ]
+  },
+  "aws": {
+    "questions": [
+      "What core AWS services do you use most often and for what purposes?",
+      "How would you design a basic scalable web application on AWS?",
+      "How do IAM, VPC, and load balancing contribute to a secure AWS architecture?"
+    ]
+  },
+  "azure": {
+    "questions": [
+      "What are the main strengths of Azure for cloud deployments?",
+      "How do Azure resource groups and identity services help organize infrastructure?",
+      "How would you design a secure application deployment on Azure?"
+    ]
+  },
+  "google cloud platform": {
+    "questions": [
+      "What types of workloads is Google Cloud Platform especially strong for?",
+      "How do networking and IAM concepts work in GCP?",
+      "How would you design a scalable application deployment on GCP?"
+    ]
+  },
+  "bash": {
+    "questions": [
+      "What kinds of automation tasks are well suited to Bash scripting?",
+      "How do you make Bash scripts safer and more reliable?",
+      "How would you debug a Bash script that behaves differently across environments?"
+    ]
+  },
+  "powershell": {
+    "questions": [
+      "What are the strengths of PowerShell for automation and operations work?",
+      "How does PowerShell differ from traditional shell scripting?",
+      "How would you use PowerShell to automate repetitive administrative tasks?"
+    ]
+  },
+  "terraform": {
+    "questions": [
+      "How does Terraform manage infrastructure declaratively?",
+      "What are providers, resources, and state in Terraform?",
+      "How do you handle Terraform state safely in a team environment?"
+    ]
+  },
+  "cloudformation": {
+    "questions": [
+      "What is AWS CloudFormation used for?",
+      "How does CloudFormation differ from Terraform?",
+      "How would you organize CloudFormation templates for a large AWS environment?"
+    ]
+  },
+  "pulumi": {
+    "questions": [
+      "What advantages does Pulumi provide compared with template-based IaC tools?",
+      "How does using general-purpose programming languages change infrastructure management in Pulumi?",
+      "When would you choose Pulumi over Terraform or CloudFormation?"
+    ]
+  },
+  "ansible": {
+    "questions": [
+      "What types of automation problems is Ansible designed to solve?",
+      "How do inventories, playbooks, and roles work in Ansible?",
+      "How does Ansible differ from infrastructure provisioning tools?"
+    ]
+  },
+  "helm": {
+    "questions": [
+      "What role does Helm play in Kubernetes deployments?",
+      "How do charts, values files, and releases work in Helm?",
+      "How would you manage environment-specific Kubernetes configurations using Helm?"
+    ]
+  },
+  "jenkins": {
+    "questions": [
+      "What is Jenkins commonly used for in engineering teams?",
+      "How would you design a Jenkins pipeline for build, test, and deployment automation?",
+      "What are common maintenance and scalability issues in Jenkins setups?"
+    ]
+  },
+  "github actions": {
+    "questions": [
+      "What problems does GitHub Actions solve in CI/CD workflows?",
+      "How do workflows, jobs, and steps work in GitHub Actions?",
+      "How would you secure secrets and deployment credentials in GitHub Actions?"
+    ]
+  },
+  "gitlab ci": {
+    "questions": [
+      "How does GitLab CI support software delivery pipelines?",
+      "How are stages, jobs, and runners used in GitLab CI?",
+      "How would you structure a GitLab CI pipeline for testing and deployment?"
+    ]
+  },
+  "prometheus": {
+    "questions": [
+      "What is Prometheus used for in observability?",
+      "How does Prometheus collect and query metrics?",
+      "How would you define useful alerts in Prometheus without causing alert fatigue?"
+    ]
+  },
+  "grafana": {
+    "questions": [
+      "What role does Grafana play in monitoring systems?",
+      "How do dashboards in Grafana help teams operate production systems?",
+      "How would you design a Grafana dashboard for service health and performance?"
+    ]
+  },
+  "elk stack": {
+    "questions": [
+      "What components make up the ELK stack and what does each do?",
+      "How does the ELK stack help with centralized logging and analysis?",
+      "What are common scaling challenges in ELK-based logging systems?"
+    ]
+  },
+  "virtual private cloud": {
+    "questions": [
+      "What is a virtual private cloud and why is it important in cloud environments?",
+      "How do public and private subnets differ inside a VPC?",
+      "How would you design a VPC for secure multi-tier application deployment?"
+    ]
+  },
+  "subnetting": {
+    "questions": [
+      "What is subnetting and why is it useful in network design?",
+      "How do CIDR ranges affect subnet planning?",
+      "How would you organize subnets for application, database, and public-facing resources?"
+    ]
+  },
+  "auto scaling": {
+    "questions": [
+      "What problem does auto scaling solve?",
+      "How do reactive and predictive auto scaling differ?",
+      "How would you choose metrics and thresholds for auto scaling policies?"
+    ]
+  },
+  "iam roles and policies": {
+    "questions": [
+      "What is the purpose of IAM roles and policies in cloud platforms?",
+      "How do you apply least privilege when defining IAM permissions?",
+      "What risks arise from overly broad IAM policies?"
+    ]
+  },
+  "network security groups": {
+    "questions": [
+      "What are network security groups and how are they used?",
+      "How do inbound and outbound rules affect access control?",
+      "How would you design secure network rules for a multi-tier application?"
+    ]
+  },
+  "zero trust architecture": {
+    "questions": [
+      "What is zero trust architecture?",
+      "How does zero trust differ from traditional perimeter-based security?",
+      "How would you apply zero trust principles in a cloud environment?"
+    ]
+  },
+  "infrastructure provisioning": {
+    "questions": [
+      "What is infrastructure provisioning and how is it typically automated?",
+      "How do you ensure provisioning is repeatable across environments?",
+      "What safeguards would you add to infrastructure provisioning workflows?"
+    ]
+  },
+  "immutable infrastructure": {
+    "questions": [
+      "What is immutable infrastructure and why is it useful?",
+      "How does immutable infrastructure reduce configuration drift?",
+      "What trade-offs come with rebuilding infrastructure instead of modifying it in place?"
+    ]
+  },
+  "blue green deployment": {
+    "questions": [
+      "What is a blue-green deployment strategy?",
+      "How does blue-green deployment reduce release risk?",
+      "What operational challenges must be managed in blue-green deployments?"
+    ]
+  },
+  "canary deployment": {
+    "questions": [
+      "What is a canary deployment and how does it differ from blue-green deployment?",
+      "How do you measure whether a canary release is safe to expand?",
+      "What rollback strategies would you use in a failed canary deployment?"
+    ]
+  },
+  "incident response": {
+    "questions": [
+      "What are the main phases of incident response?",
+      "How do you prioritize actions during an active production incident?",
+      "What should a strong post-incident review include?"
+    ]
+  },
+  "sla and slos": {
+    "questions": [
+      "What is the difference between an SLA and an SLO?",
+      "How do service level objectives help teams make reliability decisions?",
+      "How would you define meaningful SLOs for a user-facing service?"
+    ]
+  },
+  "container orchestration": {
+    "questions": [
+      "What problems are solved by container orchestration platforms?",
+      "How does container orchestration improve deployment and scaling of services?",
+      "What operational concerns arise when orchestrating containers at scale?"
+    ]
+  },
+  "service discovery": {
+    "questions": [
+      "What is service discovery and why is it needed in distributed systems?",
+      "How do services locate each other dynamically in modern infrastructure?",
+      "What failures can occur when service discovery is misconfigured?"
+    ]
+  },
+  "resource optimization": {
+    "questions": [
+      "What does resource optimization mean in cloud and platform environments?",
+      "How do you identify wasted CPU, memory, or storage capacity?",
+      "How would you optimize resources without harming performance or reliability?"
+    ]
+  },
+  "full stack development": {
+    "questions": [
+      "What does full stack development involve across frontend, backend, and data layers?",
+      "How do you balance trade-offs across the full stack when building a feature?",
+      "What skills are most important for an effective full stack developer?"
+    ]
+  },
+  "web application development": {
+    "questions": [
+      "What are the major layers of a web application?",
+      "How do frontend, backend, and database systems work together in web application development?",
+      "What are common architectural concerns when building modern web applications?"
+    ]
+  },
+  "full stack architecture": {
+    "questions": [
+      "What does good full stack architecture look like?",
+      "How do you separate responsibilities across frontend, backend, and infrastructure layers?",
+      "How would you design a maintainable full stack architecture for a growing product?"
+    ]
+  },
+  "system integration": {
+    "questions": [
+      "What challenges arise when integrating multiple systems in an application?",
+      "How do you design interfaces between services or third-party systems?",
+      "How would you make system integrations reliable and observable?"
+    ]
+  },
+  "end to end feature development": {
+    "questions": [
+      "What does owning end-to-end feature development involve?",
+      "How do you coordinate frontend, backend, and database changes for one feature?",
+      "How do you ensure an end-to-end feature is production-ready before release?"
+    ]
+  },
+  "node.js": {
+    "questions": [
+      "What makes Node.js suitable for certain backend and full stack applications?",
+      "How does Node.js handle concurrency with its event-driven model?",
+      "What kinds of workloads are less suitable for Node.js?"
+    ]
+  },
+  "firebase": {
+    "questions": [
+      "What kinds of applications is Firebase well suited for?",
+      "How do Firebase services like authentication, Firestore, and hosting work together?",
+      "What trade-offs should you consider before choosing Firebase?"
+    ]
+  },
+  "client server architecture": {
+    "questions": [
+      "What is client-server architecture?",
+      "How do responsibilities differ between client and server in web systems?",
+      "What are the limits of a simple client-server architecture as systems grow?"
+    ]
+  },
+  "mvc architecture": {
+    "questions": [
+      "What is MVC architecture and why is it useful?",
+      "How do the model, view, and controller responsibilities differ?",
+      "What are some drawbacks of MVC in larger applications?"
+    ]
+  },
+  "monolithic architecture": {
+    "questions": [
+      "What are the advantages and disadvantages of a monolithic architecture?",
+      "When is a monolith a better choice than microservices?",
+      "What signs indicate a monolith may need architectural changes?"
+    ]
+  },
+  "authentication flows": {
+    "questions": [
+      "What steps are typically involved in an authentication flow for a web application?",
+      "How do session-based and token-based authentication flows differ?",
+      "What security risks should be considered when implementing authentication flows?"
+    ]
+  },
+  "session management": {
+    "questions": [
+      "What is session management and why is it important?",
+      "How do server-side sessions differ from stateless token-based approaches?",
+      "What security issues can arise from poor session management?"
+    ]
+  },
+  "jwt": {
+    "questions": [
+      "What is a JWT and how is it used in authentication systems?",
+      "What information should and should not be stored in a JWT?",
+      "What security concerns should be considered when using JWTs?"
+    ]
+  },
+  "database indexing": {
+    "questions": [
+      "How does database indexing improve application performance?",
+      "What costs come with adding indexes to many columns?",
+      "How would you identify whether a missing index is causing slow queries?"
+    ]
+  },
+  "cross origin resource sharing": {
+    "questions": [
+      "What problem does CORS solve in web applications?",
+      "How does the browser enforce cross-origin restrictions?",
+      "How would you configure CORS safely for a frontend-backend application?"
+    ]
+  },
+  "api security": {
+    "questions": [
+      "What are the main security concerns in API design and implementation?",
+      "How do authentication, authorization, validation, and rate limiting support API security?",
+      "How would you protect an API from common abuse and attack patterns?"
+    ]
+  },
+  "error handling": {
+    "questions": [
+      "Why is structured error handling important in production systems?",
+      "How do you distinguish between user-facing errors and internal system errors?",
+      "How would you design error handling for APIs and asynchronous workflows?"
+    ]
+  },
+  "deployment pipelines": {
+    "questions": [
+      "What stages should a good deployment pipeline include?",
+      "How do automated tests and approvals fit into deployment pipelines?",
+      "How would you reduce deployment risk in a CI/CD setup?"
+    ]
+  }
+}
